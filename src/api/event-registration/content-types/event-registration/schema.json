@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_registrations",
+  "info": {
+    "singularName": "event-registration",
+    "pluralName": "event-registrations",
+    "displayName": "EventRegistration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eventId": {
+      "type": "uid"
+    },
+    "participantId": {
+      "type": "uid"
+    },
+    "registrationDateTime": {
+      "type": "datetime"
+    }
+  }
+}

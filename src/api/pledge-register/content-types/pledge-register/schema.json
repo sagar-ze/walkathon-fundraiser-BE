@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pledge_registers",
+  "info": {
+    "singularName": "pledge-register",
+    "pluralName": "pledge-registers",
+    "displayName": "PledgeRegister",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eventId": {
+      "type": "uid"
+    },
+    "donorId": {
+      "type": "uid"
+    },
+    "participantId": {
+      "type": "uid"
+    },
+    "isPledged": {
+      "type": "boolean"
+    },
+    "isDonated": {
+      "type": "boolean"
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    }
+  }
+}
